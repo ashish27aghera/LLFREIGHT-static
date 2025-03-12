@@ -1,0 +1,123 @@
+.track-block tr,
+.track-block td,
+.track-block th {
+    border: 1px solid #283a5a;
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+}
+
+/* .track-block th {
+    color: #fff;
+} */ 
+
+.track-block td {
+    color: #000000;
+}
+
+.track-block table {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.track-block thead tr {
+    --bs-table-bg: #ff8000;
+    --bs-table-color: #ffffff;
+    font-weight: bold;
+}
+
+.track-block h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+}
+
+.track-block h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Barlow", sans-serif;
+}
+
+.track-block .tracking-info {
+    margin-bottom: 15px;
+}
+
+.tracking-data .invalid-record {
+    padding: 0.5em 1em;
+    background-color: #283a5a;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tracking-data .invalid-record h5 {
+    font-size: 14px;
+    color: #ffffff;
+    margin: unset;
+    font-weight: 600;
+    line-height: 38px;
+    font-family: "Barlow", sans-serif;
+}
+
+.accordion {
+    margin-top: 30px;
+    background: #ffffff;
+}
+
+.accordion .accordion-header {
+    padding: 1em;
+    background-color: #283a5a;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion .accordion-header>* {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.accordion .accordion-header.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.accordion .accordion-header h2 {
+    color: #fff;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+}
+
+.accordion .accordion-header h2:nth-child(2) {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.accordion .accordion-header .fa_icon {
+    color: #fff;
+}
+
+.accordion .accordion-body {
+    display: none;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-top: 0;
+    overflow-x: auto;
+}
+
+.accordion .accordion-body.active {
+    display: block;
+}
