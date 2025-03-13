@@ -3,11 +3,11 @@
       <div class="container">
          <div class="top-footer">
             <div class="row">
-               <div class="col-xl-4 col-lg-4">
+               <div class="col-xl-3 col-lg-4">
                   <div class="logo-wrapper"><img src="assets/img/LogicLoadlogo1.png" alt=""></div>
                   <p>Logic Load Freight offers a vast service of logistic management services and supply chain & provide Fast & Secure solutions with the best. </p>
                </div>
-               <div class="offset-xl-1 col-xl-2 col-lg-2">
+               <div class="col-xl-2 col-lg-4">
                   <h4>Useful Links</h4>
                   <ul class="userful-links">
                      <li><a href="index.php">Home</a></li>
@@ -17,7 +17,7 @@
                      <li><a href="track.php">Track Order</a></li>
                   </ul>
                </div>
-               <div class="col-xl-2 col-lg-2">
+               <div class="col-xl-2 col-lg-4">
                   <h4>Our Services</h4>
                   <ul class="userful-links">
                      <li><a href="services.php">Courier</a></li>
@@ -28,7 +28,16 @@
                      <li><a href="services.php">IMPORTS & EXPORTS</a></li>
                   </ul>
                </div>
-               <div class="col-xl-3 col-lg-4">
+               <div class="col-xl-2 col-lg-4">
+                  <h4>Our Policy</h4>
+                  <ul class="userful-links">
+                     <li><a href="privacy.php">Privacy Policy</a></li>
+                     <li><a href="terms.php">Terms & Condition</a></li>
+                     <li><a href="cancellation.php">Cancellation Policy</a></li>
+                     <li><a href="refund.php">Refund Policy</a></li>
+                  </ul>
+               </div>
+               <div class="col-xl-2 col-lg-4">
                   <h4>Contact Us</h4>
                   <div class="footer-contact">
                      <div class="contact-info">
